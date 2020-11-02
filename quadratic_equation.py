@@ -21,4 +21,4 @@ res = quadratic_equation(a, b, c)
 if len(res) == 0:
     print(-1)
 else:
-    [print(x) for x in res]
+    [print(x, end=' ') for x in res]
